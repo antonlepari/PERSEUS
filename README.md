@@ -1,9 +1,3 @@
-# 🛡️ PERSEUS — CTF Learning Hub
-
-> Slay vulnerabilities. Think like a hacker.
-
----
-
 <p align="center">
   <img src="assets/images/PERSEUS.png" width="300" alt="PERSEUS Logo"/>
 </p>
