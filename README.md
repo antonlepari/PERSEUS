@@ -4,10 +4,40 @@
 
 ---
 
+<p align="center">
+  <img src="assets/images/PERSEUS.png" width="300" alt="PERSEUS Logo"/>
+</p>
+
+<h1 align="center">🛡️ PERSEUS — CTF Learning Hub</h1>
+
+<p align="center">
+  <b>Slay vulnerabilities. Think like a hacker.</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CTF-Learning-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Security-Offensive-red?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Level-Beginner_to_Advanced-blue?style=for-the-badge"/>
+</p>
+
+<p align="center">
+  <a href="#-start-your-journey">
+    <img src="https://img.shields.io/badge/START-JOURNEY-00ff9f?style=for-the-badge"/>
+  </a>
+  <a href="codex/web.md">
+    <img src="https://img.shields.io/badge/CODEX-CHEATSHEET-purple?style=for-the-badge"/>
+  </a>
+  <a href="arena/docker/docker-compose.yml">
+    <img src="https://img.shields.io/badge/TRY-LABS-black?style=for-the-badge"/>
+  </a>
+</p>
+
+---
+
 ## 🧠 The Story
 
-Inspired by Perseus, the legendary slayer of monsters,
-this repository is built on a simple belief:
+Inspired by Perseus — the legendary monster slayer —
+this repository transforms cybersecurity learning into a hunt.
 
 > Every vulnerability is a monster.
 > Every exploit is a strategy.
@@ -15,47 +45,86 @@ this repository is built on a simple belief:
 
 ---
 
-## ⚔️ What You’ll Find
+## ⚔️ Repository Structure
 
-* 🐍 **Monsters** → Vulnerability categories (Web, Crypto, Pwn, etc.)
-* 🧠 **Hunts** → Real CTF writeups & walkthroughs
-* 🧰 **Arsenal** → Scripts, tools, and automation
-* 📜 **Codex** → Cheatsheets & payload collections
-* 🧪 **Arena** → Hands-on labs (Docker-based)
-* 🗺️ **Journey** → Structured learning roadmap
-
----
-
-## 🎯 Who Is This For?
-
-* Beginners starting cybersecurity / CTF
-* Developers who want to learn offensive security
-* Pentesters sharpening their skills
-
----
-
-## 🧬 Philosophy
-
-Like Perseus facing Medusa,
-success in hacking is not about brute force —
-it’s about understanding, patience, and precision.
+| Path        | Description                 |
+| ----------- | --------------------------- |
+| `journey/`  | 🗺️ Learning roadmap        |
+| `monsters/` | 🐍 Vulnerability categories |
+| `hunts/`    | 🧠 Real CTF writeups        |
+| `arsenal/`  | 🧰 Tools & scripts          |
+| `codex/`    | 📜 Cheatsheets              |
+| `arena/`    | 🧪 Hands-on labs            |
+| `assets/`   | 🎨 Images & branding        |
 
 ---
 
 ## 🚀 Start Your Journey
 
-👉 Begin here: `/journey/beginner.md`
+👉 **Begin here:**
+📍 [`journey/beginner.md`](journey/beginner.md)
+
+---
+
+## 🐍 Example Monster
+
+📍 [`monsters/web/sqli/intro.md`](monsters/web/sqli/intro.md)
+
+Learn how SQL Injection works and how to exploit it.
+
+---
+
+## 🧠 Example Hunt
+
+📍 [`hunts/picoctf/sqli-login.md`](hunts/picoctf/sqli-login.md)
+
+Real-world CTF challenge walkthrough.
+
+---
+
+## 🧰 Arsenal Preview
+
+```bash
+python arsenal/scanners/sqli_scanner.py
+```
+
+---
+
+## 🧪 Run Local Lab
+
+```bash
+cd arena/docker
+docker-compose up
+```
+
+---
+
+## 📜 Codex
+
+📍 [`codex/web.md`](codex/web.md)
+
+Payloads, tricks, and quick references.
 
 ---
 
 ## ⚠️ Disclaimer
 
 This repository is for **educational purposes only**.
-Use knowledge responsibly.
+Use the knowledge responsibly.
 
 ---
 
 ## ⭐ Support
 
-If this helps you, consider giving it a star ⭐
-and share it with fellow hunters.
+If this repository helps you:
+
+* ⭐ Star this repo
+* 🔁 Share with others
+* 🧠 Keep learning
+
+---
+
+<p align="center">
+  <b>⚔️ Become a Hunter ⚔️</b>
+</p>
+
